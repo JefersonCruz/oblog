@@ -1,0 +1,33 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">maxele_portfolio</custom-type>
+		<custom-type translate="1">product</custom-type>
+		<custom-type translate="1">mc4wp-form</custom-type> 
+	</custom-types>
+	<custom-fields>
+        <custom-field action="copy">product_categories</custom-field>
+        <custom-field action="copy">maxelectric_portfolio_tax</custom-field>
+    </custom-fields>
+    <admin-texts>	
+        <key name="maxelectric_option">
+			<key name="opt_logotype" />
+			<key name="opt_contactno" />
+			<key name="opt_email" />
+			<key name="opt_opentime" />
+			<key name="opt_footer_copyright" />
+			<key name="opt_error_title" />
+			<key name="opt_error_subtitle" />
+			<key name="opt_aboutoneleft" />
+			<key name="opt_aboutoneright" />
+			<key name="opt_about" />
+			<key name="opt_team" />
+			<key name="opt_service" />
+			<key name="opt_whychoose" />
+			<key name="opt_counter" />
+			<key name="opt_testimonial" />
+			<key name="opt_client" />
+        </key>
+        <key name="maxelectric_option" />
+		<key name="blogname" />
+    </admin-texts>
+</wpml-config>

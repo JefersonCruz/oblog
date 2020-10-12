@@ -1,0 +1,178 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Maxelectric v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-01-13 17:35+0530\n"
+"Last-Translator: admin <onistaweb@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ maxelectric
+#: 404.php:24
+msgid "404"
+msgstr ""
+
+# @ maxelectric
+#: 404.php:34
+msgid "Oops, This Page Could Not Be Found!"
+msgstr ""
+
+# @ maxelectric
+#: 404.php:38 404.php:39
+msgid "Back to Home"
+msgstr ""
+
+# @ maxelectric
+#: archive.php:31 index.php:30 search.php:29
+msgid "<i class="fa fa-angle-left"></i> Prev"
+msgstr ""
+
+# @ maxelectric
+#: archive.php:32 index.php:31 search.php:30
+msgid "Next <i class="fa fa-angle-right"></i>"
+msgstr ""
+
+# @ maxelectric
+#: archive.php:33 index.php:32 search.php:31 template-parts/content.php:94 template-parts/content-page.php:26 template-parts/content-portfolio.php:125
+msgid "Page"
+msgstr ""
+
+# @ maxelectric
+#: comments.php:69
+msgid "Comments are closed."
+msgstr ""
+
+# @ maxelectric
+#: header.php:72
+msgid "Monday - Saturday"
+msgstr ""
+
+# @ maxelectric
+#: header.php:90
+msgid "Toggle navigation"
+msgstr ""
+
+# @ maxelectric
+#: searchform.php:5
+msgid "Enter a keyword and press enter..."
+msgstr ""
+
+# @ maxelectric
+#: searchform.php:16
+msgid "Search . . ."
+msgstr ""
+
+# @ maxelectric
+#: template-parts/content.php:29
+msgid "Featured"
+msgstr ""
+
+# @ maxelectric
+#: template-parts/content.php:90 template-parts/content-page.php:22 template-parts/content-portfolio.php:121
+msgid "Pages:"
+msgstr ""
+
+# @ maxelectric
+#: template-parts/content.php:101 template-parts/content.php:102
+msgid "Read More"
+msgstr ""
+
+# @ maxelectric
+#: template-parts/content.php:113
+msgid "Tags : "
+msgstr ""
+
+# @ maxelectric
+#: template-parts/content.php:121
+msgid "Categories :"
+msgstr ""
+
+# @ maxelectric
+#: template-parts/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+# @ maxelectric
+#: template-parts/content-none.php:19
+msgid "Ready to publish your first post? <a href="%1$s">Get started here</a>."
+msgstr ""
+
+# @ maxelectric
+#: template-parts/content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+# @ maxelectric
+#: template-parts/content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+# @ maxelectric
+#: template-parts/content-page.php:33
+msgid "Edit"
+msgstr ""
+
+# @ maxelectric
+#: template-parts/content-portfolio.php:60 template-parts/content-portfolio.php:112
+msgid "project"
+msgstr ""
+
+# @ maxelectric
+#: template-parts/content-portfolio.php:61
+msgid "Details"
+msgstr ""
+
+# @ maxelectric
+#: template-parts/content-portfolio.php:103
+msgid "Description"
+msgstr ""
+
+# @ maxelectric
+#: template-parts/content-portfolio.php:150
+msgid "Similar"
+msgstr ""
+
+# @ maxelectric
+#: template-parts/content-portfolio.php:151
+msgid "items"
+msgstr ""
+
+# @ maxelectric
+#: template-parts/format-audio.php:14
+msgid "Your browser does not support the audio element."
+msgstr ""
+
+# @ maxelectric
+#: template-parts/format-video.php:15
+msgid "Your browser does not support the video tag."
+msgstr ""
+
+# @ maxelectric
+#: template-parts/pageheader.php:31
+msgid "Blog"
+msgstr ""
+
+# @ maxelectric
+#: template-parts/pageheader.php:34
+msgid "Page Not Found"
+msgstr ""
+
+# @ maxelectric
+#: template-parts/pageheader.php:37
+msgid "Search Results for: %s"
+msgstr ""
+
+# @ maxelectric
+#: template-parts/sitemenu.php:14
+msgid "Set The Menu"
+msgstr ""

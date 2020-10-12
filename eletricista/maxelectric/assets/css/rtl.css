@@ -1,0 +1,797 @@
+/*----------------------------
+	Theme Name: Maxelectric	
+-------------------------------*/
+
+	/*
+	[Table of Content]
+		## RTL Settings
+		+ Global
+			- Revolution Slider
+			- Owl Carousel
+			- WordPress Common Widget Setting
+			- WooCommerce Product Widget Setting
+			- WooCommerce: MyAccount
+			- Widgets Settings
+			- ContactForm		
+		- Header
+		- Navigation Menu
+		- Slider Section
+		- Services Section
+		- About Section
+		- Gallery Section
+		- Counter Section
+		- Latest Blog
+		- Call Out
+		- Footer
+		- Who We Are
+		- Team Section
+		- Gallery Single
+		- Widget Setting
+		- Blog Section
+		- Blog Post
+		- NoPost Thumbnail Setting
+		- Blog Comment Form
+		- Contact Us
+		
+	+ Responsive
+		- min-width: 992
+		- min-width: 992 to max-width: 1199
+		- max-width: 991
+		- min-width: 768 to max-width: 991
+		- max-width: 767
+		- max-width: 639
+		- max-width: 479
+		-  max-width: 360
+	*/	
+	
+	
+/* ## RTL Settings */
+
+/* + Global */
+/* - Revolution Slider */
+html[dir="rtl"]  .rev_slider{
+	direction: ltr;
+}
+
+/* - Owl Carousel */
+html[dir="rtl"] .owl-carousel { 
+	direction: ltr;
+}
+
+/* - WordPress Common Widget Setting */ 
+html[dir="rtl"] .widget ul,
+html[dir="rtl"] .widget > ul:first-of-type {
+	padding-right: 0;
+}
+html[dir="rtl"] .widget ul.sub-menu {
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+/* - WooCommerce Product Widget Setting */
+html[dir="rtl"] .widget.woocommerce ul.product_list_widget li a,
+html[dir="rtl"] .widget_recent_entries ul li a {
+	padding-right: 0;
+}
+html[dir="rtl"] .widget.woocommerce ul.product_list_widget li img {
+	float: right;
+	margin: 0 0 0 10px;
+}
+html[dir="rtl"] .woocommerce.widget_shopping_cart .cart_list li a.remove, 
+html[dir="rtl"] .woocommerce.widget_shopping_cart .cart_list li a.remove {
+	left: 0;
+	right: auto;
+	float: left;
+}
+
+/* - WooCommerce: MyAccount */
+html[dir="rtl"] .woocommerce-account .woocommerce-MyAccount-navigation ul li.is-active::after {
+	right: auto;
+	left: 10px;
+}
+html[dir="rtl"] .woocommerce-account .woocommerce-MyAccount-navigation ul {
+	padding-right: 15px;
+}
+html[dir="rtl"] .woocommerce-message,
+html[dir="rtl"] .woocommerce-info {
+	text-align: left;
+}
+
+/* - Widgets Settings */
+html[dir="rtl"] .select_box::before {
+	left: 0;
+	right: auto;
+}
+html[dir="rtl"] .widget ul li > a {
+	padding-right: 20px;
+}
+html[dir="rtl"] .widget-area .widget_rss ul li a,
+html[dir="rtl"] .widget-area .widget_recent_comments ul li a,
+html[dir="rtl"] .widget-area .widget_recent_entries ul li a {
+	padding-right: 0;
+}
+
+/* - ContactForm  */
+html[dir="rtl"] .wpcf7-form span.wpcf7-not-valid-tip,
+html[dir="rtl"] .wpcf7-form .wpcf7-form-control {
+	text-align: right;
+}
+html[dir="rtl"] .wpcf7-form .wpcf7-form-control.wpcf7-submit {
+	float: right;
+}
+html[dir="rtl"] .wpcf7-form div.wpcf7-mail-sent-ng,
+html[dir="rtl"] .wpcf7-form div.wpcf7-validation-errors {
+	float: right;
+	margin-right: 0;
+	margin-top: 15px;
+}
+
+/* - Header */
+html[dir="rtl"] .top-header .contact-block {
+	float: left;
+}
+html[dir="rtl"] .top-header .contact-block p:last-child {
+	padding-right: 22px;
+}
+html[dir="rtl"] .top-header .contact-block p:first-child {
+	padding-right: 0;
+}
+html[dir="rtl"] .top-header .header-social {
+	padding-right: 0;
+}
+
+html[dir="rtl"] .top-header .contact-block p > i {
+	padding-left: 10px;
+	padding-right: 0;
+}
+
+html[dir="rtl"] .top-header .header-social li:last-child {
+	margin-right: 12px;
+}
+html[dir="rtl"] .top-header .header-social li:first-child  {
+	margin-right: 0;
+}
+
+/* - Navigation Menu */
+html[dir="rtl"] .header_s1 .navbar-right {
+	float: left !important;
+	padding-right: 0;
+}
+html[dir="rtl"] .header_s1 .navbar-nav > li {
+	float: right;
+}
+html[dir="rtl"] .ownavigation .navbar-nav li .dropdown-menu > li > a {
+	text-align: right;
+}
+html[dir="rtl"] .search {
+	float: left;
+}
+html[dir="rtl"] .header_s1 .search > a {
+	padding: 0 10px 0 0;
+}
+html[dir="rtl"] .header_s1 .search-box {
+	left: 100px;
+	right: auto;
+}
+html[dir="rtl"] .search-box span {
+	left: 0;
+	right: auto;
+}
+
+/* - Slider Section */
+html[dir="rtl"] .slider-section .rev_slider {
+	direction: ltr;
+}
+html[dir="rtl"] .callback-form {
+	text-align: right !important;
+}
+
+/* - Services Section */
+html[dir="rtl"] .services-section .srv-box {
+	padding: 32px 100px 32px 32px;
+}
+html[dir="rtl"] .services-section .srv-box i {
+	right: 25px;
+}
+html[dir="rtl"] .services-section2 .srv-box {
+	padding: 32px 56px;
+}
+html[dir="rtl"] .services-section2 .srv-box i {
+	right: 0;
+}
+
+/* - About Section */
+html[dir="rtl"] .about-section .about-box {
+	padding-left: 0;
+	padding-right: 60px;
+}
+html[dir="rtl"] .about-section .about-box i {
+	left: auto;
+	right: 0;
+}
+
+/* - Gallery Section */
+html[dir="rtl"] .gallery-section .portfolio-categories {
+	padding-right: 0;
+}
+html[dir="rtl"] .gallery-section .portfolio-list {
+	padding-right: 0;
+}
+html[dir="rtl"] .gallery-section .portfolio-categories li:last-child {
+	margin-right: 10px;
+}
+html[dir="rtl"] .gallery-section .portfolio-categories li:first-child {
+	margin-right: 0;
+}
+
+/* - Counter Section */
+html[dir="rtl"] .counter-section .counter-box {
+	padding-left: 0;
+	padding-right: 100px;
+}
+html[dir="rtl"] .counter-section .counter-box span::before {
+	left: auto;
+	right: 0;
+}
+html[dir="rtl"] .counter-section .counter-box i {
+	left: auto;
+	right: 0;
+}
+
+/* - Latest Blog */
+html[dir="rtl"] .latest-blog article[class*="type-"] .entry-meta a > i {
+	padding-right: 0;
+	padding-left: 10px;
+}
+html[dir="rtl"] .latest-blog article[class*="type-"] .post-date {
+	padding-right: 0;
+	padding-left: 25px;
+}
+html[dir="rtl"] .post-right article[class*="type-"] {
+	padding-left: 0;
+	padding-right: 200px;
+}
+html[dir="rtl"] .post-right article[class*="type-"] .entry-cover {
+	left: auto;
+	right: 0;
+}
+html[dir="rtl"] article[class*="type-"] h3.entry-title,
+html[dir="rtl"] article[class*="type-"] .entry-content p {
+	padding-right: 0;
+}
+
+/* - Call Out */
+html[dir="rtl"] .call-out .call-out-content a{
+	left: 0;
+	right: auto;
+}
+html[dir="rtl"] .call-out .call-out-content p {
+	padding-right: 0;
+	padding-left: 40%;
+}
+
+/* - Footer */
+html[dir="rtl"] .footer-main h3.widget-title::after {
+	right: 0;
+}
+html[dir="rtl"] .footer-main ul.footer-social {
+	padding-right: 0;
+}
+html[dir="rtl"] .footer-main .widget ul.footer-social li a {
+	padding: 0;
+}
+html[dir="rtl"] .footer-main .widget ul.footer-social li a::before{
+	content: "";
+	display: none;
+}
+html[dir="rtl"] .footer-main ul.footer-social li:first-child {
+	margin-right: 0;
+}
+html[dir="rtl"] .footer-main ul.footer-social li:last-child {
+	margin-right: 10px;
+}
+html[dir="rtl"] .footer-main .widget ul {
+	padding-right: 0;
+}
+html[dir="rtl"] .footer-main .widget.widget_links li a::before {
+	padding-right: 0;
+	padding-left: 12px;
+}
+html[dir="rtl"] .footer-main .widget.widget_services li a::before {
+	padding-right: 0;
+	padding-left: 12px;
+}
+html[dir="rtl"] .footer-main .widget.widget_info p > i {
+	padding-right: 0;
+	padding-left: 5px;
+}
+
+
+/* - Who We Are */
+html[dir="rtl"] .we-are-box {
+	padding-left: 0;
+	padding-right: 55px;
+}
+html[dir="rtl"] .we-are-box i {
+	right: 0;
+}
+html[dir="rtl"] .we-are-form form {
+	text-align: right;
+}
+
+/* - Team Section */
+html[dir="rtl"] .team-section .team-details-tab .team-social {
+	padding-right: 0;
+}
+html[dir="rtl"] .team-section .team-details-tab .team-content h5::after {
+	right: 0;
+}
+html[dir="rtl"] .team-section .team-details-tab .team-content > span {
+	margin-left: 0;
+	margin-right: 25px;
+}
+html[dir="rtl"] .team-section .skill-progress-box h3 > span {
+	float: left;
+	padding-left: 0;
+}
+html[dir="rtl"] .team-section .team-details-tab .nav-tabs {
+	padding-right: 0;
+}
+html[dir="rtl"] .team-section .team-details-tab .nav > li > a {
+	padding: 0 150px 53px 0;
+}
+html[dir="rtl"] .team-section .team-details-tab .nav.nav-tabs h5::after {
+	right: 0;
+}
+html[dir="rtl"] .team-section .team-details-tab .nav.nav-tabs i {
+	left: auto;
+	right: 0;
+}
+
+html[dir="rtl"] .woocommerce #reviews #comments ol.commentlist li .comment-text p.meta { 
+	padding-right: 12px;
+	display: inline-block;
+}
+
+/* - Gallery Single */
+html[dir="rtl"] .gallery-single h5::after {
+	left: auto;
+	right: 0;
+}
+html[dir="rtl"] .project-detail .project-box {
+	padding-left: 0;
+	padding-right: 85px;
+}
+html[dir="rtl"] .project-detail .project-box i {
+	left: auto;
+	right: 0;
+}
+html[dir="rtl"] .gallery-section .content-block-hover span a {
+	padding: 0;
+	margin-right: 13px;
+}
+html[dir="rtl"] .gallery-section .content-block-hover span a:last-of-type {
+	margin-right: 0;
+}
+html[dir="rtl"] .gallery-section .content-block-hover span a::after {
+	right: -7px;
+}
+
+/* - Widget Setting */
+html[dir="rtl"] .widget-title::before {
+	right: 0;
+	left: auto;
+}
+html[dir="rtl"] .footer-main .widget ul li a::before {
+	content: "<";
+}
+html[dir="rtl"] .widget ul li a::before {
+	right: 0;
+	left: auto;
+	transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+}
+html[dir="rtl"] .footer-main .widget li a {
+	padding-right: 15px;
+	padding-left: 0;
+}
+html[dir="rtl"] .footer-main .widget_recent_entries ul li a::before,
+html[dir="rtl"] .footer-main .widget_recent_comments ul li a::before, 
+html[dir="rtl"] .footer-main .widget.widget_rss ul li > a::before {
+	padding-right: 0;
+}
+html[dir="rtl"] .widget_tag_cloud .tagcloud a {
+	margin-right: 0;
+	margin-left: 10px;
+}
+html[dir="rtl"] .widget-area .widget.widget_about ul.footer-social li a {
+	padding-right: 0;
+}
+html[dir="rtl"] .widget-area .widget.widget_about ul.footer-social li:last-of-type a {
+	margin-right: 10px; 
+}
+html[dir="rtl"] .woocommerce nav.woocommerce-pagination {
+	text-align: right;
+}
+
+/* - Blog Section */
+html[dir="rtl"] article[class*="type-"] .entry-meta {
+	left: auto;
+	right: 0;
+}
+html[dir="rtl"] article[class*="type-"] .post-date {
+	padding-right: 0;
+	padding-left: 60px;
+}
+html[dir="rtl"] .widget-area h3.widget-title::after {
+	left: auto;
+	right: 0;
+}
+
+html[dir="rtl"] .widget_latestposts .latest-content {
+	padding-left: 0;
+	padding-right: 115px;
+	text-align: right;
+}
+html[dir="rtl"] .widget_latestposts .latest-content > a > i {
+	left: auto;
+	right: 0;
+}
+html[dir="rtl"] .widget_latestposts .latest-content span > a > i {
+	padding-right: 0;
+	padding-left: 10px;
+}
+
+/* - Blog Post */
+html[dir="rtl"] .single-post article[class*="type-"] .post-date span > i,
+html[dir="rtl"] article[class*="type-"] .entry-meta a > i {
+	padding-left: 12px;
+	padding-right: 0;
+	display: inline-block;
+}
+
+/* - NoPost Thumbnail Setting */
+html[dir="rtl"] article[class*="type-"].no-post-thumbnail .entry-meta {
+	position: relative;
+	padding-right: 0;
+}
+html[dir="rtl"] .pagination {
+	text-align: right;
+}
+
+html[dir="rtl"] .author-block .author-box {
+	padding-right: 160px;
+	padding-left: 0;
+}
+html[dir="rtl"] .author-block .author-box img {
+	left: auto;
+	right: 0;
+}
+
+html[dir="rtl"] .comment-reply-title::after {
+	right: 0;
+	left: auto;
+}
+html[dir="rtl"] .comment-form .section-heading h3::after {
+	left: auto;
+	right: 0;
+}
+
+/* - Blog Comment Form */
+html[dir="rtl"] .comment-list {
+	padding-right: 0;
+}
+html[dir="rtl"] .comment-body .reply,
+html[dir="rtl"] .comment-awaiting-moderation,
+html[dir="rtl"] .comment-metadata,
+html[dir="rtl"] .comment-author, 
+html[dir="rtl"] .comment-content {
+	padding-right: 105px;
+	padding-left: 0;
+}
+html[dir="rtl"] .comment-author .avatar {
+	right: 0;
+	left: auto;
+}
+html[dir="rtl"] .comment-list .children {
+	margin: 0 15px 0 0;
+    padding-right: 15px;
+	padding-left: 0;
+}
+html[dir="rtl"] .comment-list .children > li {
+	padding-left: 0;
+	padding-right: 0.5em;
+}
+
+/* - Contact Us */
+html[dir="rtl"] .contact-us .contact-heading h5::after {
+	left: auto;
+	right: 0;
+}
+
+/* ========================================================================== */
+	/* + Responsive */
+/* ========================================================================== */
+
+/* - min-width: 992 */
+@media (min-width: 992px) {
+	html[dir="rtl"] .navbar-header {
+		float: right;
+	}
+	/* - Nav Dropdown */
+	html[dir="rtl"] .ownavigation ul > li > .dropdown-menu {
+		right: 0; 
+	}
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child > .dropdown-menu,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) > .dropdown-menu {
+		left: 0; 
+	}
+	html[dir="rtl"] .ownavigation ul > li > .dropdown-menu,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul ul ul ul	{
+		left: auto;
+	}
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul ul ul ul {
+		right: 100%;
+	}
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul ul ul {
+		left: 100%;
+	}
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child > .dropdown-menu,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) > .dropdown-menu,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul ul ul {
+		right: auto;
+	}
+	html[dir="rtl"] .header_s1 .search-box {
+		left: 20%;
+	}
+}
+
+/* - min-width: 992 to max-width: 1199 */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	
+	/* + Header */
+	html[dir="rtl"] .header_s1 .search-box {
+		left: 30px;
+	}
+	/* - Blog Section */
+	html[dir="rtl"] .widget_archive > ul li a::before, 
+	html[dir="rtl"] .widget_categories > ul li a::before {
+		padding-left: 3px;
+	}
+	html[dir="rtl"] .widget_latestposts .latest-content {
+		padding-right: 100px;
+	}
+	
+	html[dir="rtl"] .comment-list .children {
+		margin: 0 12px 0 0;
+		padding-right: 12px;
+	}
+}
+
+/* - max-width: 991 */
+@media (max-width: 991px) {
+	/* - Navigation Menu */
+	html[dir="rtl"] .navbar-brand {
+		float: right;
+	}
+	html[dir="rtl"] .ownavigation .navbar-toggle {
+		float: left;
+	}
+	html[dir="rtl"] .ownavigation #loginpanel {
+		right: auto;
+		left: 55px;
+	}
+	html[dir="rtl"] .ownavigation #slideit, 
+	html[dir="rtl"] .ownavigation #closeit {
+		right: -7px;
+	}
+	html[dir="rtl"] .ownavigation .search {
+		left: 92px;
+		right: auto;
+	}
+	html[dir="rtl"] .header_s1 .ownavigation .ddl-switch {
+		left: 0;
+		right: auto;
+	}
+	html[dir="rtl"] .nav.navbar-nav.navbar-left {
+		padding-right: 0;
+	}
+	html[dir="rtl"] .ownavigation .dropdown-menu {
+		padding-left: 0;
+		padding-right: 10px;
+	}
+	html[dir="rtl"] .header_s1 .navbar-right {
+		margin-bottom: 15px;
+	}
+	html[dir="rtl"] .header_s1 .navbar-nav > li {
+		float: none;
+	}
+	html[dir="rtl"] .ownavigation .navbar-nav li a {
+		float: right;
+	}
+	/* - Call Out */
+	html[dir="rtl"] .call-out .call-out-content a {
+		float: none;
+	}
+	/* - Testimonial Section */
+	html[dir="rtl"] .testimonial-section .testi-box {
+		padding: 35px 20px 35px 115px;
+	}
+	/* - Blog Section */
+	html[dir="rtl"] .widget_archive > ul li a::before, 
+	html[dir="rtl"] .widget_categories > ul li a::before {
+		padding-left: 3px;
+	}
+	html[dir="rtl"] .widget_latestposts .latest-content {
+		padding-right: 100px;
+	}
+	
+	html[dir="rtl"] .comment-list .children {
+		margin: 0 8px 0 0;
+		padding-right: 8px;
+	}
+}
+
+/* - min-width: 768 to max-width: 991 */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/* - Team Section */
+	html[dir="rtl"] .team-content {
+		text-align: left;
+	}
+}
+
+/* - max-width: 767 */
+@media (max-width: 767px) {
+	/* + Header */
+	html[dir="rtl"] .ownavigation #slideit,
+	html[dir="rtl"] .ownavigation #closeit {
+		right: 7px;
+	}
+	html[dir="rtl"] .ownavigation .search {
+		left: 78px;
+	}
+	html[dir="rtl"] .header_s1 .search-box {
+		left: 80px;
+	}
+	
+	/* - Blog Section */
+	html[dir="rtl"] .widget_latestposts .latest-content {
+		padding-right: 120px;
+		padding-bottom: 34px;
+		text-align: right;
+	}
+	
+	html[dir="rtl"] .call-out .call-out-content p {
+		padding-left: 0;
+	}
+	
+	/* - Counter Section */
+	html[dir="rtl"] .counter-section .counter-box {
+		padding-right: 80px;
+	}
+	html[dir="rtl"] .counter-section .counter-box {
+		text-align: right;
+	}
+	
+	html[dir="rtl"] .comment-list .children {
+		padding-right: 5px;
+		margin: 0 5px 0 0;
+	}
+	html[dir="rtl"] .comment-list .children > li {
+		padding-right: 0;
+	}
+	html[dir="rtl"] .comment-body .reply,
+	html[dir="rtl"] .comment-awaiting-moderation,
+	html[dir="rtl"] .comment-metadata,
+	html[dir="rtl"] .comment-author,
+	html[dir="rtl"] .comment-content {
+		padding-right: 72px;
+	}
+}
+
+/* - max-width: 639 */
+@media (max-width: 639px) {	
+	/* - Page Banner */
+	html[dir="rtl"] .page-banner .banner-content .breadcrumb {
+		float: none;
+	}
+}
+
+/* - max-width: 479 */
+@media (max-width: 479px) {
+	
+	/* - Latest Blog */
+	html[dir="rtl"] .post-right article[class*="type-"] {
+		padding-right: 105px;
+	}
+	html[dir="rtl"] .latest-blog article[class*="type-"] .post-date {
+		padding-left: 10px;
+	}
+	
+	/* - Page Banner */
+	html[dir="rtl"] .page-banner .banner-content .breadcrumb {
+		float: none;
+	}
+	
+	/* - Blog Post */
+	html[dir="rtl"] .author-block .author-box {
+		padding-right: 100px;
+	}
+	html[dir="rtl"] .comment-section .media-content a {
+		float: none;
+	}
+	html[dir="rtl"] .comment-section .media.media-even {
+		padding-right: 25px;
+	}
+	
+	/* - Counter Section */
+	html[dir="rtl"] .counter-section .counter-box {
+		padding-right: 60px;
+	}
+}
+
+/* -  max-width: 360 */
+@media (max-width: 360px) {
+	/* + Header */
+	html[dir="rtl"] .header_s1 .search-box {
+		left: 60px;
+	}
+}

@@ -1,0 +1,10 @@
+Max Electric WordPress Theme
+--------------------------------------------
+
+v1.1 -  Jun 23th, 2017
+Fix ! Portfolio Filter Code Fix
+Fix ! WooCommerce Code Update
+Fix ! Clients Carousel Arrow Design Fix
+
+v1.0 -  Jan 28th, 2017
+- Initial Release
